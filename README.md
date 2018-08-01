@@ -45,4 +45,4 @@ $ docker run -p 8080:8080 -it -v /tmp/webgoat-data-8-0:/home/webgoat/.webgoat
 -v8.0.0.M14 webgoat/webgoat-8.0 -e webgoat.server.address=172.17.0.2 /home/webgoat/start.sh
 ```
 
-Para empezar crear una cuenta en [(http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) y luego iniciar sesion en WebWolf [(http://localhost:9090/WebWolf](http://localhost:9090/WebWolf)
+Para empezar crear una cuenta en [(http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) y luego iniciar sesion en WebWolf [(http://localhost:9090/login](http://localhost:9090/login)
