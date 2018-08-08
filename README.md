@@ -59,4 +59,4 @@ Para instalar WebWolf debemos de usar la direccion ip de antes, en este caso est
 $ docker run -e webgoat.server.address=172.17.0.2 -it -p 9090:9090 webgoat/webwolf /home/webwolf/run.sh
 ```
 
-Para empezar crear una cuenta en [(http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) y luego iniciar sesion en WebWolf [(http://localhost:9090/login](http://localhost:9090/login)
+Para empezar crear una cuenta en [http://localhost:8080/WebGoat](http://localhost:8080/WebGoat) y luego iniciar sesion en WebWolf [http://localhost:9090/login](http://localhost:9090/login)
