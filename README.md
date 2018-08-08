@@ -5,8 +5,7 @@
 WebGoat
 
 ```
-$ docker run -p 8080:8080 -it -v /tmp/webgoat-data-8-0:/home/webgoat/.webgoat
--v8.0.0.M14 webgoat/webgoat-8.0 /home/webgoat/start.sh
+$ docker run -p 8080:8080 -it -v /tmp/webgoat-data-8-0:/home/webgoat/.webgoat -v8.0.0.M14 webgoat/webgoat-8.0 /home/webgoat/start.sh
 ```
 
 Conocer la ip del contenedor de webgoat. En este caso es `172.17.0.2`.
