@@ -5,7 +5,7 @@
 WebGoat
 
 ```
-$ docker run -p 8080:8080 -it -v /tmp/webgoat-data-8-0:/home/webgoat/.webgoat -v8.0.0.M14 webgoat/webgoat-8.0 /home/webgoat/start.sh
+$ docker run -p 8080:8080 -e webwolf.host=172.27.254.153 -e webwolf.port=9090 -v /tmp/webgoat-data-8-0:/home/webgoat/.webgoat -v8.0.0.M14 webgoat/webgoat-8.0 /home/webgoat/start.sh
 ```
 
 Siguiente, vamos a descubrir la ip del contenedor de webgoat. 
@@ -66,5 +66,5 @@ Por ultimo para que sirvan los correos, debemos de anadir estas dos variables de
 
 ```
 webwolf.host = 9090
-webwolf.port = (ip de su maquina)
+webwolf.port = (ip de su maquina) EJ:172.27.254.153
 ```
