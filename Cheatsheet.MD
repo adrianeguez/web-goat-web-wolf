@@ -45,3 +45,10 @@ Enter your credit card number:
 ```
 start.mvc#test/
 ```
+
+## Try It! DOM-Based XSS
+
+Consola:
+```
+webgoat.customjs.phoneHome()
+```
