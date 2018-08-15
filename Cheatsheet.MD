@@ -33,3 +33,10 @@ yes / no
 ```
 javascript:alert(document.cookie);
 ```
+
+## Try It! Reflected XSS
+
+Enter your credit card number:
+```
+<script>alert('my javascript here')</script>
+```
