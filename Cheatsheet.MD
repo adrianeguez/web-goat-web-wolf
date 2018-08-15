@@ -40,3 +40,8 @@ Enter your credit card number:
 ```
 <script>alert('my javascript here')</script>
 ```
+## Identify Potential for DOM-Based XSS
+
+```
+start.mvc#test/
+```
