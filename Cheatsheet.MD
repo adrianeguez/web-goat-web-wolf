@@ -19,6 +19,17 @@ Smith' and '1'='1
 ```
 
 ## Authentication Bypasses - ZAP
+
 ```
 secQuestion00=asd&secQuestion01=asd
+```
+
+## What is XSS
+
+```
+yes / no 
+```
+
+```
+javascript:alert(document.cookie);
 ```
