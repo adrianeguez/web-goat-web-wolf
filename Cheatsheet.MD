@@ -18,7 +18,7 @@ Smith' and '1'='1
 192.168.6.4
 ```
 
-## Authentication Bypasses
+## Authentication Bypasses - ZAP
 ```
 secQuestion00=asd&secQuestion01=asd
 ```
