@@ -9,7 +9,6 @@
   <!ELEMENT Activity (#PCDATA)>
   <!ENTITY xxe SYSTEM "..">
 ]>
-<comment><text>%xxe;</text></comment>
 ```
 
 ## Try It! String SQL Injection
