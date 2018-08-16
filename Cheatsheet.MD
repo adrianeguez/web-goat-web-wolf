@@ -10,6 +10,17 @@
   <!ENTITY xxe SYSTEM "..">
 ]>
 ```
+## Modern REST framework
+
+```xml
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE comment [
+  <!ELEMENT comment (Activity)>
+  <!ELEMENT Activity (#PCDATA)>
+  <!ENTITY xxe SYSTEM "..">
+]>
+<comment><text>&xxe;</text></comment>
+```
 
 ## Try It! String SQL Injection
 
