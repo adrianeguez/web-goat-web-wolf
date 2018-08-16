@@ -1,5 +1,11 @@
 # Cheatsheet
 
+## Access control flaws -  Guessing & Predicting Patterns
+
+```
+WebGoat/IDOR/profile/2342384
+```
+
 ## XXE - Let's try
 
 ```xml
