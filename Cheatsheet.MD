@@ -1,5 +1,7 @@
 # Cheatsheet
 
+https://github.com/WebGoat/WebGoat/wiki/Main-Exploits
+
 ## CIA TRIAD
 [Descripción de CIAD](https://www.forcepoint.com/es/cyber-edu/cia-triad)
 
@@ -21,9 +23,18 @@
 
 `databasepassword`
 
+### 4
+
+[MD5](https://www.md5online.org/md5-decrypt.html)
+[SHA256](https://hashes.com/es/decrypt/hash)
+
+### 5
+Symmetric - Misma llave
+-  Is an older method of encryption, it is faster and more efficient than asymmetric encryption, which takes a toll on networks due to performance issues with data size and heavy CPU use.
+-  Is typically used for bulk encryption / encrypting large amounts of data, e.g. for database encryption. In the case of a database, the secret key might only be available to the database itself to encrypt or decrypt.
 
 
-
+ Asymmetric - llave publica llave privada
 
 ## Access control flaws -  Guessing & Predicting Patterns
 
