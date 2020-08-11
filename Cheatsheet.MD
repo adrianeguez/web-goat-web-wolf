@@ -1,5 +1,30 @@
 # Cheatsheet
 
+## CIA TRIAD
+[Descripción de CIAD](https://www.forcepoint.com/es/cyber-edu/cia-triad)
+
+1- Solution 3: By stealing a database where names and emails are stored and uploading it to a website.
+2- Solution 1: By changing the names and emails of one or more users stored in a database.
+3- Solution 4: By launching a denial of service attack on the servers.
+4- Solution 2: The systems security is compromised even if only one goal is harmed.
+
+## Crypto basics
+
+### 2
+
+[Encoding](https://www.w3.org/International/questions/qa-what-is-encoding)
+[Encode64](https://www.base64decode.org/)
+
+### 3
+
+[XOR IBM](https://strelitzia.net/wasXORdecoder/wasXORdecoder.html)
+
+`databasepassword`
+
+
+
+
+
 ## Access control flaws -  Guessing & Predicting Patterns
 
 ```
