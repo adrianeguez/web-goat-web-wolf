@@ -167,11 +167,15 @@ attack.dtd
 %out;
 ```
 
+# A5
 
+## Missing Function Level Access Control
 
-
-## JWT Tokens
-
+### 3
+```
+GET http://10.0.2.15:8080/WebGoat/users HTTP/1.1
+Content-Type: application/json;
+```
 
 
 ## Access control flaws -  Guessing & Predicting Patterns
